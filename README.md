@@ -4,5 +4,5 @@
 <strong>You can also install "@mui/icons-material @mui/material @emotion/styled @emotion/react" using npm to view the icons used here</strong>
 <p>Finally run npm start and/or open localhost://3000 in your browser</p>
 
-<br/><br/><br/><br/><br/>
+<br/><br/>
 <strong>Thank You!!!</strong>
