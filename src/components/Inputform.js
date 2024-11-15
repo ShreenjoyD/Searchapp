@@ -53,7 +53,7 @@ function Inputform(){
         changeinp(eve.target.value);
         const filteredc=c.filter(obj => obj.country.toLowerCase().startsWith(eve.target.value.toLowerCase()) || obj.capital.toLowerCase().startsWith(eve.target.value.toLowerCase()));
         if(eve.target.value.length>0)
-            changehint(filteredc.map((i,index)=><li
+            changehint(filteredc.map((i)=><li
             onClick={()=>{action(i)}}>
             {i.country}</li>));
         else
